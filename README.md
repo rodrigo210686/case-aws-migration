@@ -89,3 +89,10 @@ Migration Steps
 
 Terraform Code
 ==============
+
+To build the environment use a linux server with terraform installed and perform the command bellow.
+
+```sh
+git clone 
+
+```
