@@ -81,6 +81,9 @@ Migration Steps
     
 
 *   Set up an **Application Load Balancer (ALB)** to route incoming traffic to ECS.
+
+Terraform Code
+==============
     
 
 **Step 4: DNS Cutover**
