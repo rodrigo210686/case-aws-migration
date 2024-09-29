@@ -20,7 +20,7 @@ To migrate this application, wewill use the Lift and Shift approach modernizing 
 
 ·       AmazonCloudWatch
 
-The core foundation infrastructure willbe create using IaaC (Infrastructure as Code) Terraform. Terraform will provideVPC, ECS Fargate, ECR, Aurora Database, IAM, Ec2, WAF, Route 53.
+The core foundation infrastructure willbe create using IaaC (Infrastructure as Code) Terraform. Terraform will provideVPC, ECS Fargate, ECR, Aurora Database, IAM, Ec2, LoadBalancer,WAF.
 
 ![image](https://github.com/user-attachments/assets/8da42379-82e0-4231-a981-7e186af9ed2d)
 
@@ -91,6 +91,7 @@ Terraform Code
 ==============
 
 To build the environment use a linux server with terraform installed and perform the command bellow.
+* In my code I used RDS Mysql instead of AURORA due limitation in my AWS acccount.
 
 ```sh
 git clone https://github.com/rodrigo210686/case-aws-migration.git
