@@ -22,7 +22,8 @@ To migrate this application, wewill use the Lift and Shift approach modernizing 
 
 The core foundation infrastructure willbe create using IaaC (Infrastructure as Code) Terraform. Terraform will provideVPC, ECS Fargate, ECR, Aurora Database, IAM, Ec2, WAF, Route 53.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8da42379-82e0-4231-a981-7e186af9ed2d)
+
 
 
 **Networking**:
